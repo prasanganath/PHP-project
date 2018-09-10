@@ -1,0 +1,40 @@
+/*--------------Link Panel Styles start---------------*/
+.link-panel {
+	overflow: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 1160px;
+}
+
+.link-box {
+	width: 50%;
+	height: 100px;
+	line-height: 100px;
+	font-size: 45px;
+	color: rgb(10,10,10);
+	cursor: pointer;
+}
+
+.link-box:hover {
+	font-size: 48px;
+	color: rgb(200,200,200);
+}
+/*--------------Link Panel Styles end---------------*/
+
+/*---------------Colour Pallet start----------------*/
+.blue {
+	background-color: rgba(100,100,255,0.5);
+}
+
+.blue:hover {
+	background-color: rgba(0,0,255,0.3);
+}
+
+.green {
+	background-color: rgba(100,255,100,0.5);
+}
+
+.green:hover {
+	background-color: rgba(0,255,0,0.3);
+}
+/*---------------Colour Pallet end----------------*/

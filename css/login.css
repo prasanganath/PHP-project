@@ -1,0 +1,41 @@
+/*--------------Login Page Styles start---------------*/
+.page {
+	width: 450px;
+}
+
+.title-box {
+	width: 90%;
+}
+
+.title {
+	padding: 0px;
+}
+
+.inputs {
+	display: block;
+	margin-top: 35px;
+	padding-left: 20px;
+	width: 60%;
+	min-height: 50px;
+	font-size: 28px;
+}
+
+.btn {
+	display: block;
+	margin-top: 35px;
+	width: 65%;
+	min-height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	border-radius: 10px;
+	border-style: none;
+	background-color: rgba(180,220,150,0.6);
+	color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: rgba(180,240,150,0.9);
+	color: black;
+}
+/*--------------Login Page Styles end---------------*/

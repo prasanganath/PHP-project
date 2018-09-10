@@ -1,0 +1,85 @@
+/*--------------Global CSS Styles---------------*/
+body {
+	background-image: url("../assets/uni-back.jpg");
+	background-attachment: fixed;
+}
+
+a:link {
+	text-decoration: inherit;
+    color: inherit;
+}
+
+a:visited {
+	text-decoration: inherit;
+    color: inherit;
+}
+
+.container {
+	margin: 0px auto;
+}
+
+.page {
+	margin-top: 50px;
+	width: 1200px;
+	min-height: 500px;
+	background-color: rgba(120,80,80,0.5);
+}
+
+.border-default {
+	border: 1px solid rgba(255,255,180,0.8);
+	border-radius: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*--------------Title Box Styles start-----------------*/
+.title-box {
+	margin-top: 20px;
+	width: 1160px;
+	height: 100px;
+	line-height: 100px;
+	background-color: rgba(200,200,100,0.7);
+}
+
+.title {
+	font-size: 72px;
+	font-weight: bold;
+	padding-left: 100px;
+}
+
+.logview-box {
+	display: block;
+	margin: 0px;
+	min-width: 200px;
+	height: 100%;
+}
+
+.logview-label {
+	height: 50%;
+	line-height: 50px;
+	border-top-right-radius: 10px;
+	background-color: rgba(80,150,200,0.5);
+}
+
+.logview-btn {
+	height: 50%;
+	line-height: 50px;
+	border-bottom-right-radius: 10px;
+	background-color: rgba(80,200,230,0.5);
+	cursor: pointer;
+}
+
+.logview-btn:hover {
+	background-color: #998877;
+}
+/*--------------Title Box Styles start-----------------*/

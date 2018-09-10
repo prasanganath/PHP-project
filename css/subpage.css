@@ -1,0 +1,55 @@
+/*--------------Sub Page Styles start---------------*/
+.sub-page {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 1160px;
+	min-height: 300px;
+	background-color: rgba(120,80,80,0.5);
+}
+
+.sub-page-box {
+	display: block;
+}
+
+.sub-page-title {
+	margin-top: 20px;
+	width: 500px;
+	min-height: 60px;
+	line-height: 60px;
+	font-size: 50px;
+	color: white;
+	background-color: rgba(80,80,120,0.5);
+}
+
+.sub-page-btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	min-height:30px;
+	min-width: 200px;
+	font-weight: bold;
+}
+
+.sub-page-table {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 1100px;
+	border: 1px solid rgba(255,255,180,0.8);
+	border-radius: 5px;
+}
+
+.sub-page-table th {
+	background-color: rgba(80,180,220,0.6);
+	min-height: 30px;
+}
+
+.sub-page-table td {
+	background-color: rgba(220,220,220,0.6);
+	min-height: 30px;
+}
+
+.table-btn {
+	font-size: 10px;
+	font-weight: bold;
+}
+/*--------------Sub Page Styles end---------------*/

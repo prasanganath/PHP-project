@@ -1,0 +1,31 @@
+/*--------------Navigation Panel Styles start---------------*/
+.nav-panel {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 1160px;
+	min-height: 25px;
+	line-height: 25px;
+	background-color: rgba(255,200,200,0.4);
+	cursor: pointer;
+}
+
+.nav-item, .nav-item-leftmost, .nav-item-rightmost {
+	width: 16.5%;
+}
+
+.nav-item-leftmost {
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.nav-item-rightmost {
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.nav-item:hover,.nav-item-leftmost:hover,.nav-item-rightmost:hover {
+	font-weight: bold;
+	background-color: rgba(255,200,200,0.6);
+}
+/*--------------Navigation Panel Styles end---------------*/
